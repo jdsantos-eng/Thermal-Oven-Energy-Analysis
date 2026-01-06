@@ -20,21 +20,53 @@ TODO: Add detailed derivation and assumptions
 TODO: Add simulation outputs and discussion
 
 # How to Run
-git clone https://github.com/<jdsantos-eng>/<Thermal-Oven-Energy-Analysis>.git
-cd <Thermal-Oven-Energy-Analysis>
+## 1. Clone the repository
+```bash
+git clone https://github.com/jdsantos-eng/Thermal-Oven-Energy-Analysis.git
+cd Thermal-Oven-Energy-Analysis
+```
 
--Windows
+## 2. Create and activate a virtual environment
+
+### Windows
+```bash
 python -m venv .venv
 .venv\Scripts\activate
--macOS/Linux
+```
+
+### macOS / Linux
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
-python src/main.py   # Runs the entire workflow
+## 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-In data/data.csv you can change the inputs for testing
-Note: currently, the project can only run a single material at a time
+## 4. Run the full simulation workflow
+```bash
+python src/main.py
+```
 
+This command runs:
+- The ODE-based thermal model  
+- The numerical integration  
+- The power-ramp logic  
+- The energy/performance analysis  
+- The plotting utilities  
+
+## 5. Modify inputs (optional)
+You can adjust test parameters in:
+
+```
+data/data.csv
+```
+
+**Note:** At the moment, the project supports running simulations for **one material at a time**.
+
+## Project Structure
 ```
 project/
 │
