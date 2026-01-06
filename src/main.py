@@ -11,7 +11,7 @@ import pandas as pd
 
 
 y0 = []
-reader = pd.read_csv("Data.csv", skiprows=1)
+reader = pd.read_csv("../data/data.csv", skiprows=1)
 params= dict(zip(reader["key"], reader["value"].astype(float)))
 
 """Guide, material settings"""
@@ -38,4 +38,5 @@ sol = run_simulation(
 
 df = build_dataframe(sol,scenario_id="Material_A")
 print(df)
+
 plot_results(df)
