@@ -5,13 +5,13 @@ Data-driven analysis of energy consumption and operational efficiency of a therm
 This project develops and analyzes a dynamic thermal model of a furnace-type heating system using ordinary differential equations and numerical simulation in Python. The objective is to evaluate start-up behavior, steady-state strategies, and energy consumption under different power control scenarios.
 
 # Elements
--Lumped thermal modeling with two thermal masses (heating element and furnace chamber)
--Dynamic simulation using ODEs (scipy.solve_ivp)
--Startup analysis and heating time estimation
--Control-oriented power ramp modeling
--Steady-state power optimization to minimize energy consumption
--Parametric analysis across power levels and thermal losses
--Data analysis and visualization (pandas, matplotlib)
+- Lumped thermal modeling with two thermal masses (heating element and furnace chamber)
+- Dynamic simulation using ODEs (scipy.solve_ivp)
+- Startup analysis and heating time estimation
+- Control-oriented power ramp modeling
+- Steady-state power optimization to minimize energy consumption
+- Parametric analysis across power levels and thermal losses
+- Data analysis and visualization (pandas, matplotlib)
 
 # Mathematical Model
 TODO: Add detailed derivation and assumptions
