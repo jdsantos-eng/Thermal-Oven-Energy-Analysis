@@ -19,7 +19,7 @@ TODO: Add detailed derivation and assumptions
 # Key Results 
 TODO: Add simulation outputs and discussion
 
-#How to Run
+# How to Run
 git clone https://github.com/<jdsantos-eng>/<Thermal-Oven-Energy-Analysis>.git
 cd <Thermal-Oven-Energy-Analysis>
 
@@ -35,6 +35,7 @@ python src/main.py   # Runs the entire workflow
 In data/data.csv you can change the inputs for testing
 Note: currently, the project can only run a single material at a time
 
+```
 project/
 │
 ├── src/                # Source code (models, simulation, utilities)
@@ -53,3 +54,4 @@ project/
 │
 ├── README.md           # Project documentation
 └── requirements.txt    # Project libreries
+```
