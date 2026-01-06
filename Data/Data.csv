@@ -1,0 +1,12 @@
+﻿MATERIAL A,
+key,value
+Heating rod thermal capacity,500
+Oven thermal capacity,6000
+Thermal conductance from rod to oven,20
+Thermal conductance from oven to ambient,5
+Ambient temperature,25
+Target power,3000
+Maximum rate of change of power,100
+Initial rod temperature,25
+Initial oven temperature,25
+Initial power input,0
